@@ -2,7 +2,7 @@
 
 choice = input("Type 'encode' to encrypt, type 'decode' to decrypt: ").lower()
 message= input ("Type your message: ").lower()
-shift = int(input("Tyle the shift number: "))
+shift = int(input("Type the shift number: "))
 alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
@@ -34,4 +34,4 @@ if choice == "encode":
 elif choice == "decode":
     decode(message,shift)
 else:
-    print("Enter a vaid option")
+    print("Enter a valid option")
