@@ -1,2 +1,2 @@
-empty_dict ={}
-# programming_dict = empty_dict
+ # highest_bid = amount
+    # print(highest_bid)
